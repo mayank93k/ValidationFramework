@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <!-- Suppress noisy third-party logs -->
+        <Logger name="org.apache" level="error" additivity="false"/>
+        <Logger name="org.sparkproject" level="error" additivity="false"/>
+        <Logger name="org.eclipse.jetty" level="error" additivity="false"/>
+        <Logger name="org.apache.hadoop" level="error" additivity="false"/>
+        <Logger name="org.apache.kafka" level="error" additivity="false"/>
+
+        <!-- Enable logging for your application -->
+        <Logger name="com.yourcompany" level="info" additivity="false">
+            <AppenderRef ref="Console"/>
+        </Logger>
+
+        <!-- Root logger (safely default to error to suppress unwanted logs) -->
+        <Root level="error">
+            <AppenderRef ref="Console"/>
+        </Root>
+    </Loggers>
+</Configuration>

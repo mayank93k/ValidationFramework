@@ -1,0 +1,126 @@
+{
+  "validationFields": {
+    "employee": [
+      {
+        "name": "id",
+        "validationRule": [
+          "isNotNull",
+          "isNotBlank",
+          "notContainsInvalidValue",
+          "notContainsBlankString"
+        ],
+        "errorMessage": "Validation failed for column: id",
+        "dataType": "string",
+        "flag": true
+      },
+      {
+        "name": "name",
+        "validationRule": [
+          "isNotNull",
+          "isNotBlank",
+          "notContainsInvalidValue",
+          "notContainsBlankString"
+        ],
+        "errorMessage": "Validation failed for column: name",
+        "dataType": "string",
+        "flag": true
+      },
+      {
+        "name": "age",
+        "validationRule": [
+          "isNotNull",
+          "isNotBlank",
+          "notContainsInvalidValue",
+          "notContainsBlankString"
+        ],
+        "errorMessage": "Validation failed for column: age",
+        "dataType": "string",
+        "flag": true
+      },
+      {
+        "name": "salary",
+        "validationRule": [
+          "isNotNull",
+          "isNotBlank",
+          "notContainsInvalidValue",
+          "notContainsBlankString"
+        ],
+        "errorMessage": "Validation failed for column: salary",
+        "dataType": "string",
+        "flag": true
+      },
+      {
+        "name": "department",
+        "validationRule": [
+          "isNotNull",
+          "isNotBlank",
+          "notContainsInvalidValue",
+          "notContainsBlankString"
+        ],
+        "errorMessage": "Validation failed for column: department",
+        "dataType": "string",
+        "flag": true
+      },
+      {
+        "name": "experience_years",
+        "validationRule": [
+          "isNotNull",
+          "isNotBlank",
+          "notContainsInvalidValue",
+          "notContainsBlankString"
+        ],
+        "errorMessage": "Validation failed for column: experience_years",
+        "dataType": "string",
+        "flag": true
+      },
+      {
+        "name": "performance_rating",
+        "validationRule": [
+          "isNotNull",
+          "isNotBlank",
+          "notContainsInvalidValue",
+          "notContainsBlankString"
+        ],
+        "errorMessage": "Validation failed for column: performance_rating",
+        "dataType": "string",
+        "flag": true
+      },
+      {
+        "name": "location",
+        "validationRule": [
+          "isNotNull",
+          "isNotBlank",
+          "notContainsInvalidValue",
+          "notContainsBlankString"
+        ],
+        "errorMessage": "Validation failed for column: location",
+        "dataType": "string",
+        "flag": true
+      },
+      {
+        "name": "education",
+        "validationRule": [
+          "isNotNull",
+          "isNotBlank",
+          "notContainsInvalidValue",
+          "notContainsBlankString"
+        ],
+        "errorMessage": "Validation failed for column: education",
+        "dataType": "string",
+        "flag": true
+      },
+      {
+        "name": "bonus",
+        "validationRule": [
+          "isNotNull",
+          "isNotBlank",
+          "notContainsInvalidValue",
+          "notContainsBlankString"
+        ],
+        "errorMessage": "Validation failed for column: bonus",
+        "dataType": "string",
+        "flag": true
+      }
+    ]
+  }
+}

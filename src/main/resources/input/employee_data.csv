@@ -1,0 +1,101 @@
+id,name,age,salary,department,experience_years,performance_rating,location,education,bonus
+1,XyowZ,57,5164,Engineering,35,3.5,London,Bachelors,2027
+2,iJaQa,53,4076,Sales,39,1.4,San Francisco,Bachelors,3095
+3,wgJKV,30,7434,Engineering,39,1.6,San Francisco,Masters,1336
+4,xEcom,30,5586,Sales,20,3.9,London,PhD,4018
+5,QWVil,19,7419,Marketing,6,1.9,Berlin,Bachelors,1289
+6,wMSqy,59,2428,HR,25,3.8,,Masters,4088
+7,PiNah,36,6513,Marketing,5,2.1,London,Masters,4479
+8,QgClh,62,8337,HR,30,3.7,London,Masters,2154
+9,VUdMe,49,4873,Marketing,6,3.1,London,Bachelors,3415
+10,RlAhb,26,5485,Marketing,29,2.9,,Bachelors,4401
+11,asAAp,59,6746,Sales,5,2.1,London,PhD,""
+12,fqijp,55,7069,Sales,3,4.8,Berlin,PhD,1009
+13,nGxxe,65,4039,Sales,18,1.9,Berlin,Masters,2597
+14,KzWVf,45,2287,Sales,1,1.1,Berlin,Bachelors,2758
+15,iojtY,50,3324,HR,9,2.0,New York,Bachelors,3693
+16,ccHJh,58,2846,Sales,13,1.0,Berlin,Bachelors,2898
+17,biBhr,53,6504,Marketing,26,4.3,San Francisco,Masters,4306
+18,LCpzO,33,2444,Sales,25,4.5,New York,Bachelors,4300
+19,cWHAn,24,9288,Engineering,9,2.8,New York,PhD,1461
+20,BTeIw,52,8924,Sales,13,1.9,Berlin,Masters,1530
+21,AYqYq,26,3140,Engineering,28,3.8,New York,Masters,4079
+22,KgzhJ,53,5619,Marketing,19,4.2,London,Bachelors,""
+23,CxPoZ,22,9562,Sales,34,4.1,San Francisco,PhD,2358
+24,ucVzz,19,7878,HR,12,4.2,Berlin,Bachelors,2377
+25,kaHIn,37,2349,HR,26,2.1,London,Bachelors,4879
+26,TcorC,51,9753,HR,8,1.4,San Francisco,Bachelors,3599
+27,BHbKx,28,4129,Engineering,37,1.6,Berlin,PhD,1640
+28,sRLmW,45,4274,Sales,33,3.5,New York,PhD,1916
+29,rVTYG,58,6169,HR,29,3.4,San Francisco,Masters,3156
+30,aDUkC,35,5755,Sales,17,3.8,New York,Bachelors,2809
+31,CXcfm,18,9151,Sales,32,2.7,Berlin,Masters,3099
+32,rfojz,60,4588,Engineering,4,4.3,New York,PhD,2535
+33,QfjBa,63,2614,Engineering,16,3.3,New York,PhD,1914
+34,DicEY,50,3444,Marketing,9,1.1,London,Masters,3535
+35,MfjuJ,49,9822,Marketing,16,1.6,Berlin,Bachelors,2223
+36,MRLUX,21,7093,Engineering,30,4.1,San Francisco,Masters,3831
+37,tEMpp,58,2042,Sales,30,1.7,New York,Masters,4114
+38,HuwaU,65,2018,Engineering,3,2.4,London,Masters,1103
+39,qpsBW,56,2471,Marketing,37,3.2,London,Masters,2077
+40,BEiVu,56,9590,Marketing,3,2.4,London,Bachelors,2211
+41,lDvzK,25,6060,Sales,12,4.4,San Francisco,Masters,4685
+42,vhVuH,38,5615,Engineering,13,4.5,Berlin,Bachelors,1440
+43,vyKTe,25,5183,Marketing,1,1.9,London,Bachelors,4728
+44,qXInr,26,4079,Engineering,31,1.9,London,PhD,4873
+45,bynND,29,3996,Engineering,12,2.2,Berlin,PhD,2370
+46,zYOVv,60,8709,Engineering,37,2.3,New York,Bachelors,1519
+47,pSnIH,44,3703,Engineering,37,1.7,San Francisco,Bachelors,1519
+48,vnsqM,34,8101,Sales,20,2.6,New York,PhD,3597
+49,lFShP,37,9225,Sales,12,4.7,San Francisco,Masters,3756
+50,zTcsc,49,2805,HR,22,3.7,New York,Bachelors,3570
+51,NgnbE,19,2965,HR,31,1.2,London,Masters,1701
+52,HThIR,51,3055,Sales,1,2.9,London,PhD,4486
+53,BShAL,52,2536,Sales,6,4.6,New York,Bachelors,4993
+54,LpZLq,62,9918,Engineering,10,2.9,London,Masters,4452
+55,vuiHO,34,7575,Engineering,38,3.2,Berlin,Masters,2301
+56,FWjDX,58,3034,HR,39,4.7,San Francisco,Bachelors,3536
+57,LahtD,50,4255,Marketing,38,3.3,Berlin,Bachelors,3063
+58,JNtdl,40,4353,Marketing,6,2.0,New York,PhD,4977
+59,euzwo,40,7018,Engineering,15,1.5,London,Masters,4814
+60,GmerB,31,9319,Marketing,19,3.1,Berlin,Bachelors,3850
+61,QdJEs,47,5142,HR,18,2.9,Berlin,PhD,4011
+62,yUnUS,18,7801,HR,12,3.0,New York,PhD,1293
+63,KSFUA,53,6255,Sales,3,4.5,San Francisco,Bachelors,2997
+64,DsKHE,43,5045,Marketing,8,4.5,Berlin,PhD,4096
+65,aaudu,41,8566,Marketing,35,4.4,New York,Bachelors,2843
+66,FCCsv,61,9749,Marketing,2,4.3,London,PhD,1745
+67,FMiXg,59,8606,Sales,37,4.0,San Francisco,Bachelors,4567
+68,IABZY,19,7102,Marketing,1,3.2,Berlin,Bachelors,3735
+69,DDoqb,39,4402,HR,29,1.4,London,PhD,4421
+70,OGbIU,27,9483,Marketing,5,3.5,London,PhD,1710
+71,msMJy,62,3558,Marketing,22,2.1,New York,Masters,2481
+72,fVRxR,58,9589,Marketing,15,2.5,New York,PhD,4350
+73,JgcQY,30,2341,Sales,5,1.4,Berlin,Bachelors,2811
+74,wDoFd,33,6928,Marketing,10,1.3,San Francisco,Masters,3866
+75,bWkjn,42,3217,Marketing,5,1.9,London,Masters,3597
+76,MaeOT,50,3199,Marketing,13,3.6,Berlin,Bachelors,4899
+77,WeneX,43,8988,Sales,31,2.1,New York,PhD,4177
+78,JKWFA,59,4539,HR,6,2.3,San Francisco,Bachelors,4937
+79,sJBxv,30,8680,HR,13,4.7,Berlin,PhD,2411
+80,hWrba,26,3589,Sales,18,4.1,Berlin,PhD,1258
+81,pFZzB,42,9682,Sales,26,3.8,San Francisco,Masters,4956
+82,MWfjE,45,9340,Sales,5,2.4,Berlin,Bachelors,3798
+83,npDhS,25,6686,Sales,32,1.2,New York,Bachelors,4183
+84,ObRFz,41,5546,Engineering,28,4.5,San Francisco,Masters,3581
+85,RkvQl,18,9875,Marketing,33,2.5,London,PhD,2027
+86,bxnnJ,59,5254,Engineering,27,4.7,Berlin,Bachelors,2040
+87,CuJcG,45,7366,Marketing,21,4.5,New York,PhD,2439
+88,CruIL,58,9639,Sales,14,1.7,San Francisco,Bachelors,2803
+89,cykZz,40,6560,HR,29,1.7,London,Masters,4990
+90,JQbOq,59,9736,HR,10,4.9,San Francisco,PhD,2152
+91,PQjfM,30,8129,Engineering,18,2.1,London,PhD,4912
+92,lMsFF,47,7035,Engineering,22,4.6,London,Bachelors,1619
+93,NYyNg,40,4329,Marketing,32,2.5,San Francisco,Bachelors,3480
+94,esRPH,20,3638,Engineering,6,1.3,San Francisco,PhD,1080
+95,kneEo,57,6335,Marketing,18,4.0,New York,PhD,2095
+96,yURxp,57,4965,Sales,8,4.5,London,Bachelors,2643
+97,SrPxp,52,5710,Engineering,17,4.3,New York,Masters,1664
+98,vnBtH,21,3414,Engineering,12,2.1,San Francisco,Masters,4601
+99,XTmJJ,52,6445,HR,18,4.4,San Francisco,Masters,2858
+100,mjXQS,39,7705,HR,18,4.0,Berlin,PhD,1668
