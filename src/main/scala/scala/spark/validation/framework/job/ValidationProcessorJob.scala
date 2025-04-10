@@ -6,6 +6,11 @@ import org.apache.spark.sql.SparkSession
 import scala.spark.validation.framework.common.logger.Logging
 import scala.spark.validation.framework.utility.ProcessRuleValidator
 
+/**
+ * The ValidationProcessorJob object is responsible for initializing a spark session and running validation process for sources.
+ * It reads configuration files, executes the validation logic and handles any exceptions that occur during the process.
+ * Finally, it sends email alerts and stops the spark session.
+ */
 object ValidationProcessorJob extends Logging {
   def main(args: Array[String]): Unit = {
     logger.info("Spark Session Initialization")
@@ -24,9 +29,5 @@ object ValidationProcessorJob extends Logging {
       spark.catalog.clearCache()
       spark.stop()
     }
-
-//    readData.show(false)
- //   readData.printSchema()
   }
-
 }

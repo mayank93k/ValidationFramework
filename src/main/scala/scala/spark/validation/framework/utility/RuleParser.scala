@@ -9,6 +9,13 @@ import scala.spark.validation.framework.common.logger.Logging
 import scala.spark.validation.framework.utility.ValidationRuleUtility._
 
 object RuleParser extends Logging {
+  /**
+   * Generates validation expressions for a given configuration section.
+   *
+   * @param config  The configuration object containing validation rule.
+   * @param section The section in the configuration to parse.
+   * @return A sequence of spark sql columns representing the validation expression.
+   */
   def generateValidationExpression(config: Config, section: String): Seq[Column] = {
     logger.info(s"Getting validation expressions for section $section")
     val fields = config.getConfigList(section).asScala
