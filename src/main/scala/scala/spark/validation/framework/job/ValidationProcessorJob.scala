@@ -3,8 +3,10 @@ package scala.spark.validation.framework.job
 import com.typesafe.config.ConfigFactory
 import org.apache.spark.sql.SparkSession
 
+import scala.spark.validation.framework.alert.UtilityFunction.addBeautifiedHeaderMessage
+import scala.spark.validation.framework.alert.{AlertMessage, UtilityFunction}
 import scala.spark.validation.framework.common.logger.Logging
-import scala.spark.validation.framework.utility.ProcessRuleValidator
+import scala.spark.validation.framework.validation.ProcessRuleValidator
 
 /**
  * The ValidationProcessorJob object is responsible for initializing a spark session and running validation process for sources.
@@ -25,7 +27,13 @@ object ValidationProcessorJob extends Logging {
     } catch {
       case e: Exception =>
         logger.error(s"Error during validation for source", e)
+        AlertMessage.clearMessage()
+        addBeautifiedHeaderMessage("Validation Failed")
+        AlertMessage.addMessage(s"Error during processing validation: ${e.getMessage}")
+        UtilityFunction.AlertProcessor()
     } finally {
+      AlertMessage.addMessage("Validation Processing completed")
+      UtilityFunction.AlertProcessor()
       spark.catalog.clearCache()
       spark.stop()
     }
